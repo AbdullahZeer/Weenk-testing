@@ -7,84 +7,285 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		328C76F7B2887FF1938F79F7FDD56154 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD29AE7A20DEBBFD88C251EDB5FA3C6 /* SceneLocationEstimate.swift */; };
+		0F7F88BE92968ADA5D4A7CA8EF692F43 /* SwipeNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D17B39D7D68AEE348CE918A2689420D3 /* SwipeNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		130FBD27671345F4D9C95977A5BD6591 /* Motion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8608627CC5C550D66FF4F3DF8A9BFF0 /* Motion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1377DE721BE8CF26719AFCE3135D8444 /* MotionSnapshotType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EA479015422B2225B9ED48C7BFF9D0 /* MotionSnapshotType.swift */; };
+		19EB09FB3705FE202A5AA2948FF09077 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC73AAF97935F3F5992E8BC4DA0AA58 /* ConditionalPreprocessor.swift */; };
+		204B51B6FBCF5566E0DFE7357CF90EDC /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923C80D163BE05FE6388A044AA3508C /* SwipeTableViewCellDelegate.swift */; };
+		20DF2904916DFF0E7075254E51CBCCB7 /* MotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C789789D2A527CA8845AF2051B0CA /* MotionModifier.swift */; };
+		2B85D90ADE27AAB0CCBB9392C4485D40 /* MotionCoordinateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EA915F16314981D43DD23C2F9034C9 /* MotionCoordinateSpace.swift */; };
+		2D607119C090AD2F3DFD83C305AA814B /* MotionAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C5E83ABDE656452A072C694E7C08E9 /* MotionAnimatorViewContext.swift */; };
+		2E837A2E45946B456401B127C5975584 /* MotionTransitionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB91546189BD7B9664E4946529C1634 /* MotionTransitionObserver.swift */; };
+		328C76F7B2887FF1938F79F7FDD56154 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B34CF1EA1508D9F8889EBD9665945 /* SceneLocationEstimate.swift */; };
+		34579300D920AF5824BA0FAE7DFE808F /* MotionTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F03B9EC2B86174D15319587FDEA10C /* MotionTransition+UITabBarControllerDelegate.swift */; };
 		34F2F80D3047DFBFF52DA50C9675F124 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79673D96BCDFF236A244E406A373381E /* CoreLocation.framework */; };
+		35BCE26F0A85C132E9A10BB35C66BC75 /* Motion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5DF8AB72C3067EC6B65A5DBF339D4 /* Motion-dummy.m */; };
 		3B10E6A662F9E018D394779552F21C4C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05254A0C94E2D62E88562D48C26C7979 /* MapKit.framework */; };
-		436181E53F5BA4A2B459EDD990E37E4A /* ARCL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE65A087937D1E91095A9061693BB8A /* ARCL-dummy.m */; };
-		6A23697E3630FE875F1CE7A834A12885 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC212B78843EEBD6D63DD3DDE3F21084 /* CGPoint+Extensions.swift */; };
+		3C9EAA97A3A914194E946AE8CDFDF39A /* MotionViewOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8580D510F24FA69838E8BC48CBEE81E2 /* MotionViewOrderStrategy.swift */; };
+		436181E53F5BA4A2B459EDD990E37E4A /* ARCL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A16E63B8B49DFD5C108E5F1561757405 /* ARCL-dummy.m */; };
+		437F43CB8950000F5B53CA4FE224F5E3 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F2075FB8A1AC49994002FC5919757 /* SwipeActionTransitioning.swift */; };
+		442352E5E9BF0F764659FAD5182FC13D /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985CB168D318D675EE48A461109655BE /* SwipeExpanding.swift */; };
+		44EE1E9C049BAD506ACE8D0035A99ABA /* MotionTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755450EB28D7DD57E916A9834375032E /* MotionTransition+Interactive.swift */; };
+		4B23B02909BD7ECED901411A2A9891D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD660C829EB5683EA4EE1A6FD9453E7 /* Extensions.swift */; };
+		4F2C9A5584BCD338A20EDD1A45BB8855 /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85E0FB7BC518156949B023E4A0A98B8 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */; };
+		51CA63DEB66941DC37C06245EB58A8C7 /* MotionViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB541CC2CA413C3C9EB763A72DFCEA /* MotionViewPropertyViewContext.swift */; };
+		53841965FE2A88ACF37AD300FFFDCC87 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41A04354426AB81AFE568A9D1EBBBB /* SwipeExpansionStyle.swift */; };
+		59F235DD0CABB832F4F2B9AB1450DC48 /* Pods-testW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB924BAC175FE94A7B53A5116FED40B7 /* Pods-testW-dummy.m */; };
+		59F60805035075A42124FC2DCFCCABE6 /* SwipeTableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C897B0F98708FDF26C7C90567D9F43B /* SwipeTableOptions.swift */; };
+		5D3E2A13C1EE45B974BFD8BB4D246424 /* Motion+CAMediaTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859CF090C35D93BD15A8DF126F5E537 /* Motion+CAMediaTimingFunction.swift */; };
+		5F9E5C86F4AE1F7B4DFE7B8F98E201AB /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE688B01D887F62E7672F577F2FDB3 /* SwipeTableViewCell.swift */; };
+		65A638926FF2A67FDB4EB17DB66BE4D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E26F54AA5576D1FFF03643FB49CD5EA /* Foundation.framework */; };
+		673B1D0F251447CAA189E1D4E6994D63 /* Motion+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D77F264E652033611CFE37C54541D /* Motion+CALayer.swift */; };
+		6A23697E3630FE875F1CE7A834A12885 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E732DA24FD48D11AB2D95D4825217 /* CGPoint+Extensions.swift */; };
+		6B221415EA08D77BACEAAD7B435914F5 /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0088398780868638EBC7394571D58D /* SwipeAnimator.swift */; };
 		6DEABB858932B7F6FBB14FBE19F0DFB6 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1133D82C30562AE07C12D04C3EA63E32 /* ARKit.framework */; };
-		6E9601E984C4D1F5319E168150F1D1B9 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF025826521CE10E3049403483FBAA /* SCNNode+Extensions.swift */; };
-		7E214852DF7DBB76DA7FCEA9744F5D6B /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40FC41FF33A2B3254F531E3DF7670EA /* SceneLocationEstimate+Extensions.swift */; };
-		94AEB317771173DC21512A973919A41D /* ARCL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 422E4CE1AC143E88C9728C2655CFB3FC /* ARCL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8ACC34953DA822CFBD1999F1604C5B0 /* Pods-testW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB924BAC175FE94A7B53A5116FED40B7 /* Pods-testW-dummy.m */; };
+		6E49A7B5E6FA42A6BC6BEE8957DF8A36 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E88814773F78094803074876CE71AB /* SwipeActionButton.swift */; };
+		6E9601E984C4D1F5319E168150F1D1B9 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E0AAC4BA28032C094719B5F0218EC /* SCNNode+Extensions.swift */; };
+		74DC93D7914E28BF217D8E96F2A8A58D /* SwipeNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A7A5F1F130946E344F7962D3A359B9 /* SwipeNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		751F6EABBF3C861462918445E477262A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E26F54AA5576D1FFF03643FB49CD5EA /* Foundation.framework */; };
+		78BA88010D26C3CDA154220FB0E0575A /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A874819CDBA40C4D5E8793C56CEBF6E /* MatchPreprocessor.swift */; };
+		78F781B12DD2C935B4BF374BE0CEAEF8 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A863443A4C0A15DA67C20ECDCDF6F98 /* SwipeCellKit-dummy.m */; };
+		7ADF23C79078E9C158F5DA7A9CE75B9A /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06153E1FB1CCF1941EEA86104612B965 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E0217F9763FE5CEB718528A20B275F7 /* MotionTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E71826DDBA1604C551C4104566B7AC /* MotionTransition+Start.swift */; };
+		7E214852DF7DBB76DA7FCEA9744F5D6B /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A28607C0956FE9779D227C08246D16 /* SceneLocationEstimate+Extensions.swift */; };
+		8307569F8E18DD362E57E91B17FB2430 /* Motion+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D8085D65A46E09F7E7A072D8D4CC50 /* Motion+UIKit.swift */; };
+		8876E6484A020EF7F45780DDCE03ACCC /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8ACD8E45878580383ED32264103E9 /* MotionAnimation.swift */; };
+		8CBCFCA4D62E5C2F3E660CB2F3436BBC /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8828EC455E79D70F211095AC291AF2 /* SwipeTableViewCell+Display.swift */; };
+		91C15D7F735614DA092F61FB1D57F331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E26F54AA5576D1FFF03643FB49CD5EA /* Foundation.framework */; };
+		93385FD68C9F11DBB0DA37BF8A22744F /* Motion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FCE6C6C92A86B309B69E6AA0C55007 /* Motion+UIView.swift */; };
+		935349AD0CAFE416F894CA049FAF5E9D /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A720DC4516C25D9550B81D2675BD3CB9 /* Swipeable.swift */; };
+		94AEB317771173DC21512A973919A41D /* ARCL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AF7D7431FA25558A8311E5CEF0EB5B /* ARCL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		972850E6A8615AA45F875CAD0B40C6E2 /* MotionAnimationFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2BCB8F57BB423EB8BF87EE37045A74 /* MotionAnimationFillMode.swift */; };
+		A1E530F674859D59636C4928B45427D7 /* MotionTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25D4EB802924CFBBEE951BA7591F8E9 /* MotionTransition+Complete.swift */; };
+		A99CE1639C0AEE2D73387C2E2286E330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E26F54AA5576D1FFF03643FB49CD5EA /* Foundation.framework */; };
+		AAAF34FB8B2A57D4F3C4048CA3188E0D /* MotionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF36E95F9B44C07988A8ABBA948E64ED /* MotionTransition.swift */; };
+		AAB4E5FA92F959610CDC02E80F0A7944 /* Motion+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFDE36ABBD599D9F2B24B2C76A4ED31 /* Motion+UIViewController.swift */; };
+		AC21ABB253F77F6F9BDDFE81063F4F1B /* UIViewController+SwipeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B0E773924EAB44E1531EB93C15CBC /* UIViewController+SwipeNavigationController.swift */; };
 		ACD719013B6B80EACBE2DD66733C9577 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1FA7F0F7D87A94D0B9B1BE4250930 /* SceneKit.framework */; };
-		AFBF191BAEBFE7616C59E588E0D2BA74 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F06BA29771A5087B5C4820838B577 /* LocationNode.swift */; };
-		B56F10623F5BD6F885457C00FBF133B5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6CC60DA912CE644923E1C3BCB03C4D /* LocationManager.swift */; };
-		BA621349BA6CABDFE7D77AD025DD2285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E26F54AA5576D1FFF03643FB49CD5EA /* Foundation.framework */; };
-		C4FC987CF150C9C4166AFAC1B7F3ACF9 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E051C79F9C77861AC9E27A4A2646EA48 /* SCNVector3+Extensions.swift */; };
+		AD23C113AA5C4954A0308974368BC732 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7F620F863A7502F62EACD8B951945 /* CascadePreprocessor.swift */; };
+		AD6C491B7AE200B411EE71929B3CAC57 /* MotionCorePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459165A89C15586467879AB92FA9132F /* MotionCorePreprocessor.swift */; };
+		AFBF191BAEBFE7616C59E588E0D2BA74 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EC6F83A1685F73C73DCA983649390 /* LocationNode.swift */; };
+		B12B2EED885CAD4715787BA38011CC91 /* MotionTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBDCDAACCA22713927151D4F187573 /* MotionTargetState.swift */; };
+		B526CE1F77B557EAAEFCE6D2B2CF3CE8 /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51EC00226CB83475D0C86F43353C233 /* SwipeTableViewCell+Accessibility.swift */; };
+		B56F10623F5BD6F885457C00FBF133B5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80682B7EAFA9177D0DE5A2109FE7577 /* LocationManager.swift */; };
+		B6C73019900CD5047E56E241C1560E3E /* MotionTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7519E8AF13176BA434248758ED17150 /* MotionTransition+CustomTransition.swift */; };
+		B6DE2117241B8BF659E030B6722E0396 /* MotionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F932020578C491D08323D2BDEAE1DD8 /* MotionPreprocessor.swift */; };
+		B7281B808148119A8116A4C418200228 /* MotionTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F4CF51B49BF108276EFE9BD0EC8702 /* MotionTransition+Animate.swift */; };
+		B8ECF1EFCE45B762869F63C4F769C5FD /* Motion+Obj-C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC15239CDF99D5A2FEC274C98E5C72B /* Motion+Obj-C.swift */; };
+		BB06B683A5A925004F388DE50483E553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51239D73D237B91C3F2A50237E2BB6 /* UIKit.framework */; };
+		BF6645DFBC0777DEC64B824DA6BEBE3B /* TransitionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E7CE08051E216F9D56FD33ACA2C97 /* TransitionPreprocessor.swift */; };
+		C3C308B64A62B37D39039BB1B610E474 /* SwipeNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F44F4F1353B5E922BB487508F54DD6 /* SwipeNavigationController-dummy.m */; };
+		C4FC987CF150C9C4166AFAC1B7F3ACF9 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4476EA945488F4240ECC1DF698F2BE5 /* SCNVector3+Extensions.swift */; };
 		D08BD6DE0BB9C717CFD66420C36B6EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E26F54AA5576D1FFF03643FB49CD5EA /* Foundation.framework */; };
-		DA0E7D89130839EA8B589B5A57DA4B28 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063DAC7C005C0381A8C577421C54DDC /* CLLocation+Extensions.swift */; };
-		E1A18D0CD71924F04F7D061934FECA18 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFF1A3D37A6FD5258249556E0FF0BC1 /* FloatingPoint+Radians.swift */; };
-		EDFE9FF365253A3FEEB2571359FE40DB /* Pods-testW-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCAC6D9D1E9F627C6B49435E823B9D43 /* Pods-testW-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F286B003B935CFD89B8AC2B1023ECE8A /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52919027ADA5736D4DB8CCC3CCF19B23 /* SceneLocationView.swift */; };
+		D4143D2368BF7DB18BBB405823BFFC0E /* MotionCAAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D7287F04CC0DA68C56DAE7142125CB /* MotionCAAnimation.swift */; };
+		D42E8293678FBF20C9225CF02DC0B153 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495050E2DF3EA8991BEE184469D819D /* SwipeAction.swift */; };
+		D701825DD7022994EA59570DB71BA08A /* Motion+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB025B94349DD830025F585D2D2DF8FE /* Motion+Array.swift */; };
+		D72F71A1219EA6F8F052739048EE6A1E /* MotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A27A42F6B967984AA74BD6F3DB3817 /* MotionContext.swift */; };
+		D8EF3CA464EA12B25FE569D3DED73693 /* MotionProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D3F182FCAC20AF1B3B890D570B3B09 /* MotionProgressRunner.swift */; };
+		DA0E7D89130839EA8B589B5A57DA4B28 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D523FC11E77D47215D8AB82BA7DC238A /* CLLocation+Extensions.swift */; };
+		DE43CCBF72EBCD77D60731989FE83563 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125FEE5BC16B061A39EED084BC1FF58 /* SourcePreprocessor.swift */; };
+		E021A9B92559D8C099B679D926A6CB3A /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D07240C570ADA52CC30878CB13FA665 /* SwipeActionsView.swift */; };
+		E150C9F06F2B57BE3B37422027DF0B27 /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77528192B01CB8444DA8FEB1528B44C /* SwipeFeedback.swift */; };
+		E1696EA63B478B8E21F2D26C8C517304 /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB66C158D97433FB0CF158395BBED2 /* MotionAnimator.swift */; };
+		E1A18D0CD71924F04F7D061934FECA18 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E403DB73E4662314D120C84B1E520EC /* FloatingPoint+Radians.swift */; };
+		E2C3F30592C1D9D346A913CD17CDF6B8 /* Pods-testW-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCAC6D9D1E9F627C6B49435E823B9D43 /* Pods-testW-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4CB8785D7C61CAC5ED76DAC7148AEC9 /* MotionTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A6AB3754E19AE0FC72DCEA79EC22E /* MotionTransition+UINavigationControllerDelegate.swift */; };
+		E98FD4930E9DFD996E3F6B13167D6E65 /* SwipeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45C47AB78793ABA887A770013CAD1D /* SwipeNavigationController.swift */; };
+		ED442B94A4E7304C095D7BC01C8D8C82 /* MotionAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C97C3E6B135B63566B572A480E8B05 /* MotionAnimationState.swift */; };
+		F0F7A6D766E84E63D6319799A8AC8333 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA4C826575AB42A560A688584716C2 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		F286B003B935CFD89B8AC2B1023ECE8A /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69995785C57E950AB73BE015D8270E68 /* SceneLocationView.swift */; };
+		F38AF5F6EDC1CD8144DF3704A56FD224 /* MotionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0616614EA46D7A55A34E16B7E046D5 /* MotionPlugin.swift */; };
 		F43A61DBEE190C8F213EB8483DFCB05A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51239D73D237B91C3F2A50237E2BB6 /* UIKit.framework */; };
+		F4A5B321CBA545927FCD723BD26283A0 /* Motion+CG.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38E3D214EF90174967F314A2D41CBAF /* Motion+CG.swift */; };
+		F8A6E563E292400235DCA5F896513281 /* MotionCoreAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95D97DB1C49F26E4A409AAD7905570 /* MotionCoreAnimator.swift */; };
+		FD1E0F81CCC70AEC9EF5986AF2AFD71C /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C9458673CAC97C4A0064EE06A225B /* SwipeTransitionLayout.swift */; };
+		FE10215480870C4B7036C6EE99C4D6CC /* MotionCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B188405C54B855E9A50AC5147A507DEC /* MotionCoreAnimationViewContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C3C04ACCBA1548BB54A4FDECEE9CCBE1 /* PBXContainerItemProxy */ = {
+		7BBD41CDB5336C1921DD62A334959C59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B3FCF2DF4512CA0461222403526A28A8;
 			remoteInfo = ARCL;
 		};
+		B389870193F25C5BD38E63A17883D0D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B07A53208A11D884BB4E07E9131315;
+			remoteInfo = Motion;
+		};
+		D8CBFDA993B8B231B2985F43C16CF665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B133D227D6D9EE0B27F9FFB10E1EAEA3;
+			remoteInfo = SwipeNavigationController;
+		};
+		FD2FC11F0AD206DE8FB7454936A824FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1A4D6576F1F49B3C1AC57827D2EC446;
+			remoteInfo = SwipeCellKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019A54C4E9EC62B9F58626806E289576 /* SwipeCellKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.xcconfig; sourceTree = "<group>"; };
+		01FB541CC2CA413C3C9EB763A72DFCEA /* MotionViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewPropertyViewContext.swift; path = Sources/Animator/MotionViewPropertyViewContext.swift; sourceTree = "<group>"; };
 		05254A0C94E2D62E88562D48C26C7979 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		0564D8899EB7116F246CC0BC7DCF5C9C /* SwipeNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeNavigationController.modulemap; sourceTree = "<group>"; };
+		06153E1FB1CCF1941EEA86104612B965 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
 		07B1FA7F0F7D87A94D0B9B1BE4250930 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A0A6AB3754E19AE0FC72DCEA79EC22E /* MotionTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		0A874819CDBA40C4D5E8793C56CEBF6E /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		0AD660C829EB5683EA4EE1A6FD9453E7 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
 		0DB3339147DE2C126311E5A26B4DB1B0 /* Pods-testW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testW-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0E26F54AA5576D1FFF03643FB49CD5EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0EFA412EA44ACA30F5979F41E595E272 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1133D82C30562AE07C12D04C3EA63E32 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ARKit.framework; sourceTree = DEVELOPER_DIR; };
-		1DBFE5625235E5342E5029A43A242859 /* ARCL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCL.xcconfig; sourceTree = "<group>"; };
-		3AD29AE7A20DEBBFD88C251EDB5FA3C6 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationEstimate.swift; path = "ARKit+CoreLocation/Source/SceneLocationEstimate.swift"; sourceTree = "<group>"; };
-		422E4CE1AC143E88C9728C2655CFB3FC /* ARCL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-umbrella.h"; sourceTree = "<group>"; };
-		43A5375FA63457AA6072C82C3DD2CEFB /* ARCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARCL.framework; path = ARCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C6CC60DA912CE644923E1C3BCB03C4D /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "ARKit+CoreLocation/Source/LocationManager.swift"; sourceTree = "<group>"; };
-		52919027ADA5736D4DB8CCC3CCF19B23 /* SceneLocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationView.swift; path = "ARKit+CoreLocation/Source/SceneLocationView.swift"; sourceTree = "<group>"; };
-		560DED5199E80917BB0B07115BA3F2B0 /* ARCL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARCL.modulemap; sourceTree = "<group>"; };
+		13D8C1EB0ED67509A9199D7C0F03D824 /* SwipeNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeNavigationController.framework; path = SwipeNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E0AAC4BA28032C094719B5F0218EC /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode+Extensions.swift"; path = "ARKit+CoreLocation/Source/SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		1D07240C570ADA52CC30878CB13FA665 /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
+		1E0616614EA46D7A55A34E16B7E046D5 /* MotionPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPlugin.swift; path = Sources/MotionPlugin.swift; sourceTree = "<group>"; };
+		1FDA4C826575AB42A560A688584716C2 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		22A7F620F863A7502F62EACD8B951945 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		2923C80D163BE05FE6388A044AA3508C /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		29AF7D7431FA25558A8311E5CEF0EB5B /* ARCL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-umbrella.h"; sourceTree = "<group>"; };
+		2A863443A4C0A15DA67C20ECDCDF6F98 /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
+		2EC15239CDF99D5A2FEC274C98E5C72B /* Motion+Obj-C.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Obj-C.swift"; path = "Sources/Extensions/Motion+Obj-C.swift"; sourceTree = "<group>"; };
+		3D1B0E773924EAB44E1531EB93C15CBC /* UIViewController+SwipeNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+SwipeNavigationController.swift"; path = "SwipeNavigationController/SwipeNavigationController/UIViewController+SwipeNavigationController.swift"; sourceTree = "<group>"; };
+		3F41A04354426AB81AFE568A9D1EBBBB /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
+		459165A89C15586467879AB92FA9132F /* MotionCorePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCorePreprocessor.swift; path = Sources/Preprocessors/MotionCorePreprocessor.swift; sourceTree = "<group>"; };
+		46373215363C57BDC1236DCAE5459B8A /* Motion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-prefix.pch"; sourceTree = "<group>"; };
+		5074CC76A69628548ADACEB7B4E76983 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		51C5E83ABDE656452A072C694E7C08E9 /* MotionAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimatorViewContext.swift; path = Sources/Animator/MotionAnimatorViewContext.swift; sourceTree = "<group>"; };
+		534D769408675036B5F8523377261D22 /* Pods_testW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testW.framework; path = "Pods-testW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A28607C0956FE9779D227C08246D16 /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SceneLocationEstimate+Extensions.swift"; path = "ARKit+CoreLocation/Source/SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		58FE688B01D887F62E7672F577F2FDB3 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		5A3B34CF1EA1508D9F8889EBD9665945 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationEstimate.swift; path = "ARKit+CoreLocation/Source/SceneLocationEstimate.swift"; sourceTree = "<group>"; };
+		5CFDE36ABBD599D9F2B24B2C76A4ED31 /* Motion+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIViewController.swift"; path = "Sources/Extensions/Motion+UIViewController.swift"; sourceTree = "<group>"; };
+		5E403DB73E4662314D120C84B1E520EC /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Radians.swift"; path = "ARKit+CoreLocation/Source/FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		60D7287F04CC0DA68C56DAE7142125CB /* MotionCAAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCAAnimation.swift; path = Sources/MotionCAAnimation.swift; sourceTree = "<group>"; };
+		62EA915F16314981D43DD23C2F9034C9 /* MotionCoordinateSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoordinateSpace.swift; path = Sources/MotionCoordinateSpace.swift; sourceTree = "<group>"; };
+		633DBE807F34D1C1B39D70E6D13273E8 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DB66C158D97433FB0CF158395BBED2 /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = Sources/Animator/MotionAnimator.swift; sourceTree = "<group>"; };
+		6495050E2DF3EA8991BEE184469D819D /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
+		66D3F182FCAC20AF1B3B890D570B3B09 /* MotionProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionProgressRunner.swift; path = Sources/Transition/MotionProgressRunner.swift; sourceTree = "<group>"; };
+		696C9458673CAC97C4A0064EE06A225B /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
+		69995785C57E950AB73BE015D8270E68 /* SceneLocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationView.swift; path = "ARKit+CoreLocation/Source/SceneLocationView.swift"; sourceTree = "<group>"; };
+		6D7E732DA24FD48D11AB2D95D4825217 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "ARKit+CoreLocation/Source/CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		6E9EC6F83A1685F73C73DCA983649390 /* LocationNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationNode.swift; path = "ARKit+CoreLocation/Source/LocationNode.swift"; sourceTree = "<group>"; };
+		722D77F264E652033611CFE37C54541D /* Motion+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CALayer.swift"; path = "Sources/Extensions/Motion+CALayer.swift"; sourceTree = "<group>"; };
+		755450EB28D7DD57E916A9834375032E /* MotionTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Interactive.swift"; path = "Sources/Transition/MotionTransition+Interactive.swift"; sourceTree = "<group>"; };
+		76E88814773F78094803074876CE71AB /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
+		7958BAD575E9533428566F6D3F36F651 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79673D96BCDFF236A244E406A373381E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		7B0B68891CEE624218614A1CB319C80D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C897B0F98708FDF26C7C90567D9F43B /* SwipeTableOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableOptions.swift; path = Source/SwipeTableOptions.swift; sourceTree = "<group>"; };
 		7CEE848096863360E94220A6A3D270E7 /* Pods-testW-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testW-frameworks.sh"; sourceTree = "<group>"; };
+		7EC73AAF97935F3F5992E8BC4DA0AA58 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
 		8105843730BF7F6AF8E3916B729C7BC3 /* Pods-testW-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testW-resources.sh"; sourceTree = "<group>"; };
+		81F4CF51B49BF108276EFE9BD0EC8702 /* MotionTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Animate.swift"; path = "Sources/Transition/MotionTransition+Animate.swift"; sourceTree = "<group>"; };
+		82CFF3D2D43968D081A51C387ABCBA78 /* ARCL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCL.xcconfig; sourceTree = "<group>"; };
+		83AC2943F406D3A3AAC0256B0ACF58DD /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
+		8580D510F24FA69838E8BC48CBEE81E2 /* MotionViewOrderStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewOrderStrategy.swift; path = Sources/MotionViewOrderStrategy.swift; sourceTree = "<group>"; };
 		8606D8A2BAFBA91CE5DE6666492049DD /* Pods-testW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testW.modulemap"; sourceTree = "<group>"; };
-		8EE65A087937D1E91095A9061693BB8A /* ARCL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARCL-dummy.m"; sourceTree = "<group>"; };
-		9380FD28E89EF332DF015905427ABF2D /* ARCL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-prefix.pch"; sourceTree = "<group>"; };
+		87BBDCDAACCA22713927151D4F187573 /* MotionTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTargetState.swift; path = Sources/MotionTargetState.swift; sourceTree = "<group>"; };
+		90A7A5F1F130946E344F7962D3A359B9 /* SwipeNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeNavigationController.h; path = SwipeNavigationController/SwipeNavigationController/SwipeNavigationController.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94EA479015422B2225B9ED48C7BFF9D0 /* MotionSnapshotType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionSnapshotType.swift; path = Sources/MotionSnapshotType.swift; sourceTree = "<group>"; };
+		95C97C3E6B135B63566B572A480E8B05 /* MotionAnimationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationState.swift; path = Sources/MotionAnimationState.swift; sourceTree = "<group>"; };
+		96A3035498F64FF4E7B41006A4B3B496 /* Motion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.xcconfig; sourceTree = "<group>"; };
+		9838DDC08559CC1C4822140D58C993A5 /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
+		985CB168D318D675EE48A461109655BE /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
+		98F03B9EC2B86174D15319587FDEA10C /* MotionTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		99E71826DDBA1604C551C4104566B7AC /* MotionTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Start.swift"; path = "Sources/Transition/MotionTransition+Start.swift"; sourceTree = "<group>"; };
+		9C9C789789D2A527CA8845AF2051B0CA /* MotionModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionModifier.swift; path = Sources/MotionModifier.swift; sourceTree = "<group>"; };
+		9E0088398780868638EBC7394571D58D /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
+		9EC5DF8AB72C3067EC6B65A5DBF339D4 /* Motion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Motion-dummy.m"; sourceTree = "<group>"; };
+		9F932020578C491D08323D2BDEAE1DD8 /* MotionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPreprocessor.swift; path = Sources/Preprocessors/MotionPreprocessor.swift; sourceTree = "<group>"; };
+		A16E63B8B49DFD5C108E5F1561757405 /* ARCL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARCL-dummy.m"; sourceTree = "<group>"; };
+		A1A27A42F6B967984AA74BD6F3DB3817 /* MotionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionContext.swift; path = Sources/MotionContext.swift; sourceTree = "<group>"; };
+		A6F44F4F1353B5E922BB487508F54DD6 /* SwipeNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeNavigationController-dummy.m"; sourceTree = "<group>"; };
+		A720DC4516C25D9550B81D2675BD3CB9 /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
 		A8F38985F857F4AC50C38ACA1E796EDE /* Pods-testW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testW.release.xcconfig"; sourceTree = "<group>"; };
-		C063DAC7C005C0381A8C577421C54DDC /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocation+Extensions.swift"; path = "ARKit+CoreLocation/Source/CLLocation+Extensions.swift"; sourceTree = "<group>"; };
-		C42F06BA29771A5087B5C4820838B577 /* LocationNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationNode.swift; path = "ARKit+CoreLocation/Source/LocationNode.swift"; sourceTree = "<group>"; };
+		AA8828EC455E79D70F211095AC291AF2 /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
+		AE45C47AB78793ABA887A770013CAD1D /* SwipeNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeNavigationController.swift; path = SwipeNavigationController/SwipeNavigationController/SwipeNavigationController.swift; sourceTree = "<group>"; };
+		B188405C54B855E9A50AC5147A507DEC /* MotionCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimationViewContext.swift; path = Sources/Animator/MotionCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		B257947EBCCBA0390173AE89A8AE6FE8 /* ARCL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARCL.modulemap; sourceTree = "<group>"; };
+		B25D4EB802924CFBBEE951BA7591F8E9 /* MotionTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Complete.swift"; path = "Sources/Transition/MotionTransition+Complete.swift"; sourceTree = "<group>"; };
+		B39F2075FB8A1AC49994002FC5919757 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		B4476EA945488F4240ECC1DF698F2BE5 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "ARKit+CoreLocation/Source/SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		B4D8085D65A46E09F7E7A072D8D4CC50 /* Motion+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIKit.swift"; path = "Sources/Extensions/Motion+UIKit.swift"; sourceTree = "<group>"; };
+		B77528192B01CB8444DA8FEB1528B44C /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
+		B80682B7EAFA9177D0DE5A2109FE7577 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "ARKit+CoreLocation/Source/LocationManager.swift"; sourceTree = "<group>"; };
+		B85E0FB7BC518156949B023E4A0A98B8 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/MotionTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		BB025B94349DD830025F585D2D2DF8FE /* Motion+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Array.swift"; path = "Sources/Extensions/Motion+Array.swift"; sourceTree = "<group>"; };
+		BDB91546189BD7B9664E4946529C1634 /* MotionTransitionObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransitionObserver.swift; path = Sources/MotionTransitionObserver.swift; sourceTree = "<group>"; };
+		C15E7CE08051E216F9D56FD33ACA2C97 /* TransitionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionPreprocessor.swift; path = Sources/Preprocessors/TransitionPreprocessor.swift; sourceTree = "<group>"; };
 		C50E91C417036F8130B4AEAF197D03E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAAA5E504429FC290B8A81B7ECE1B6AD /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		C51EC00226CB83475D0C86F43353C233 /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		C68D58F159663E5956B6E8FBA1444396 /* ARCL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-prefix.pch"; sourceTree = "<group>"; };
+		C6991C85C21B382995618D64DDB3E138 /* SwipeNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeNavigationController-prefix.pch"; sourceTree = "<group>"; };
 		CCAC6D9D1E9F627C6B49435E823B9D43 /* Pods-testW-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testW-umbrella.h"; sourceTree = "<group>"; };
-		D76D11756E4CCD3E02D5F1B869357F8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD95D97DB1C49F26E4A409AAD7905570 /* MotionCoreAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimator.swift; path = Sources/Animator/MotionCoreAnimator.swift; sourceTree = "<group>"; };
+		D0A2302C51EFC8427685478C34BB0D5B /* ARCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARCL.framework; path = ARCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E74BBBCC4343097DCFD2CF166A2E63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D125FEE5BC16B061A39EED084BC1FF58 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		D17B39D7D68AEE348CE918A2689420D3 /* SwipeNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeNavigationController-umbrella.h"; sourceTree = "<group>"; };
+		D38E3D214EF90174967F314A2D41CBAF /* Motion+CG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CG.swift"; path = "Sources/Extensions/Motion+CG.swift"; sourceTree = "<group>"; };
+		D523FC11E77D47215D8AB82BA7DC238A /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocation+Extensions.swift"; path = "ARKit+CoreLocation/Source/CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		D5FCE6C6C92A86B309B69E6AA0C55007 /* Motion+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIView.swift"; path = "Sources/Extensions/Motion+UIView.swift"; sourceTree = "<group>"; };
+		DA2BCB8F57BB423EB8BF87EE37045A74 /* MotionAnimationFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationFillMode.swift; path = Sources/Extensions/MotionAnimationFillMode.swift; sourceTree = "<group>"; };
 		DABAAB44D6EAAA7939AD984E8590001A /* Pods-testW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testW.debug.xcconfig"; sourceTree = "<group>"; };
 		DB51239D73D237B91C3F2A50237E2BB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E051C79F9C77861AC9E27A4A2646EA48 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "ARKit+CoreLocation/Source/SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		E0E8ACD8E45878580383ED32264103E9 /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = Sources/MotionAnimation.swift; sourceTree = "<group>"; };
 		E26F290F6A299E83FAE79F6DBB16FD44 /* Pods-testW-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testW-acknowledgements.plist"; sourceTree = "<group>"; };
-		E40FC41FF33A2B3254F531E3DF7670EA /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SceneLocationEstimate+Extensions.swift"; path = "ARKit+CoreLocation/Source/SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		E7519E8AF13176BA434248758ED17150 /* MotionTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+CustomTransition.swift"; path = "Sources/Transition/MotionTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		E859CF090C35D93BD15A8DF126F5E537 /* Motion+CAMediaTimingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CAMediaTimingFunction.swift"; path = "Sources/Extensions/Motion+CAMediaTimingFunction.swift"; sourceTree = "<group>"; };
+		E8608627CC5C550D66FF4F3DF8A9BFF0 /* Motion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-umbrella.h"; sourceTree = "<group>"; };
+		E8AC2D7410F0F0487BF10CF9FAF7E0E7 /* Motion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Motion.modulemap; sourceTree = "<group>"; };
 		EB924BAC175FE94A7B53A5116FED40B7 /* Pods-testW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testW-dummy.m"; sourceTree = "<group>"; };
-		EC212B78843EEBD6D63DD3DDE3F21084 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "ARKit+CoreLocation/Source/CGPoint+Extensions.swift"; sourceTree = "<group>"; };
-		EFFF1A3D37A6FD5258249556E0FF0BC1 /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Radians.swift"; path = "ARKit+CoreLocation/Source/FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
-		F3BF025826521CE10E3049403483FBAA /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode+Extensions.swift"; path = "ARKit+CoreLocation/Source/SCNNode+Extensions.swift"; sourceTree = "<group>"; };
-		F94754F83B417F34A0ABE4E8873D7BDF /* Pods_testW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testW.framework; path = "Pods-testW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF36E95F9B44C07988A8ABBA948E64ED /* MotionTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransition.swift; path = Sources/Transition/MotionTransition.swift; sourceTree = "<group>"; };
+		EFD1A98FFCB96C5CDCAE27BCAF63FB29 /* Motion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Motion.framework; path = Motion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65D83DB91877CAE0A16DF965F3FFA68 /* SwipeNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeNavigationController.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50CD02D06D249F41360425F0D5314735 /* Frameworks */ = {
+		0E794956B845D4B4D00FA60EBF679547 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA621349BA6CABDFE7D77AD025DD2285 /* Foundation.framework in Frameworks */,
+				91C15D7F735614DA092F61FB1D57F331 /* Foundation.framework in Frameworks */,
+				BB06B683A5A925004F388DE50483E553 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A1F093A857908D9C07FD38472248D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A638926FF2A67FDB4EB17DB66BE4D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F9AE31FDCC03372670B9FF08910209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751F6EABBF3C861462918445E477262A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F22B294BDBF08D98915C1305DDFA05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99CE1639C0AEE2D73387C2E2286E330 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,18 +313,91 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2309B6DF47F0C7298DA6B5219A2B7033 /* Support Files */ = {
+		19A37992D03BA63F7DA5607AC8FCAEC5 /* SwipeNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				560DED5199E80917BB0B07115BA3F2B0 /* ARCL.modulemap */,
-				1DBFE5625235E5342E5029A43A242859 /* ARCL.xcconfig */,
-				8EE65A087937D1E91095A9061693BB8A /* ARCL-dummy.m */,
-				9380FD28E89EF332DF015905427ABF2D /* ARCL-prefix.pch */,
-				422E4CE1AC143E88C9728C2655CFB3FC /* ARCL-umbrella.h */,
-				D76D11756E4CCD3E02D5F1B869357F8E /* Info.plist */,
+				90A7A5F1F130946E344F7962D3A359B9 /* SwipeNavigationController.h */,
+				AE45C47AB78793ABA887A770013CAD1D /* SwipeNavigationController.swift */,
+				3D1B0E773924EAB44E1531EB93C15CBC /* UIViewController+SwipeNavigationController.swift */,
+				6370EBD340D311435AB3FB59C0B79BD5 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ARCL";
+			name = SwipeNavigationController;
+			path = SwipeNavigationController;
+			sourceTree = "<group>";
+		};
+		2164A0789BC4A153873AD93808AA03F4 /* SwipeCellKit */ = {
+			isa = PBXGroup;
+			children = (
+				0AD660C829EB5683EA4EE1A6FD9453E7 /* Extensions.swift */,
+				A720DC4516C25D9550B81D2675BD3CB9 /* Swipeable.swift */,
+				6495050E2DF3EA8991BEE184469D819D /* SwipeAction.swift */,
+				76E88814773F78094803074876CE71AB /* SwipeActionButton.swift */,
+				1D07240C570ADA52CC30878CB13FA665 /* SwipeActionsView.swift */,
+				B39F2075FB8A1AC49994002FC5919757 /* SwipeActionTransitioning.swift */,
+				9E0088398780868638EBC7394571D58D /* SwipeAnimator.swift */,
+				985CB168D318D675EE48A461109655BE /* SwipeExpanding.swift */,
+				3F41A04354426AB81AFE568A9D1EBBBB /* SwipeExpansionStyle.swift */,
+				B77528192B01CB8444DA8FEB1528B44C /* SwipeFeedback.swift */,
+				7C897B0F98708FDF26C7C90567D9F43B /* SwipeTableOptions.swift */,
+				58FE688B01D887F62E7672F577F2FDB3 /* SwipeTableViewCell.swift */,
+				C51EC00226CB83475D0C86F43353C233 /* SwipeTableViewCell+Accessibility.swift */,
+				AA8828EC455E79D70F211095AC291AF2 /* SwipeTableViewCell+Display.swift */,
+				2923C80D163BE05FE6388A044AA3508C /* SwipeTableViewCellDelegate.swift */,
+				696C9458673CAC97C4A0064EE06A225B /* SwipeTransitionLayout.swift */,
+				7490C58D8735CF439AF31819CC4A8CC0 /* Support Files */,
+			);
+			name = SwipeCellKit;
+			path = SwipeCellKit;
+			sourceTree = "<group>";
+		};
+		396390DDE05C2D2FD90C7A93D839628B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				22A7F620F863A7502F62EACD8B951945 /* CascadePreprocessor.swift */,
+				7EC73AAF97935F3F5992E8BC4DA0AA58 /* ConditionalPreprocessor.swift */,
+				1FDA4C826575AB42A560A688584716C2 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				0A874819CDBA40C4D5E8793C56CEBF6E /* MatchPreprocessor.swift */,
+				BB025B94349DD830025F585D2D2DF8FE /* Motion+Array.swift */,
+				722D77F264E652033611CFE37C54541D /* Motion+CALayer.swift */,
+				E859CF090C35D93BD15A8DF126F5E537 /* Motion+CAMediaTimingFunction.swift */,
+				D38E3D214EF90174967F314A2D41CBAF /* Motion+CG.swift */,
+				2EC15239CDF99D5A2FEC274C98E5C72B /* Motion+Obj-C.swift */,
+				B4D8085D65A46E09F7E7A072D8D4CC50 /* Motion+UIKit.swift */,
+				D5FCE6C6C92A86B309B69E6AA0C55007 /* Motion+UIView.swift */,
+				5CFDE36ABBD599D9F2B24B2C76A4ED31 /* Motion+UIViewController.swift */,
+				E0E8ACD8E45878580383ED32264103E9 /* MotionAnimation.swift */,
+				DA2BCB8F57BB423EB8BF87EE37045A74 /* MotionAnimationFillMode.swift */,
+				95C97C3E6B135B63566B572A480E8B05 /* MotionAnimationState.swift */,
+				63DB66C158D97433FB0CF158395BBED2 /* MotionAnimator.swift */,
+				51C5E83ABDE656452A072C694E7C08E9 /* MotionAnimatorViewContext.swift */,
+				60D7287F04CC0DA68C56DAE7142125CB /* MotionCAAnimation.swift */,
+				A1A27A42F6B967984AA74BD6F3DB3817 /* MotionContext.swift */,
+				62EA915F16314981D43DD23C2F9034C9 /* MotionCoordinateSpace.swift */,
+				B188405C54B855E9A50AC5147A507DEC /* MotionCoreAnimationViewContext.swift */,
+				CD95D97DB1C49F26E4A409AAD7905570 /* MotionCoreAnimator.swift */,
+				459165A89C15586467879AB92FA9132F /* MotionCorePreprocessor.swift */,
+				9C9C789789D2A527CA8845AF2051B0CA /* MotionModifier.swift */,
+				1E0616614EA46D7A55A34E16B7E046D5 /* MotionPlugin.swift */,
+				9F932020578C491D08323D2BDEAE1DD8 /* MotionPreprocessor.swift */,
+				66D3F182FCAC20AF1B3B890D570B3B09 /* MotionProgressRunner.swift */,
+				94EA479015422B2225B9ED48C7BFF9D0 /* MotionSnapshotType.swift */,
+				87BBDCDAACCA22713927151D4F187573 /* MotionTargetState.swift */,
+				EF36E95F9B44C07988A8ABBA948E64ED /* MotionTransition.swift */,
+				81F4CF51B49BF108276EFE9BD0EC8702 /* MotionTransition+Animate.swift */,
+				B25D4EB802924CFBBEE951BA7591F8E9 /* MotionTransition+Complete.swift */,
+				E7519E8AF13176BA434248758ED17150 /* MotionTransition+CustomTransition.swift */,
+				755450EB28D7DD57E916A9834375032E /* MotionTransition+Interactive.swift */,
+				99E71826DDBA1604C551C4104566B7AC /* MotionTransition+Start.swift */,
+				0A0A6AB3754E19AE0FC72DCEA79EC22E /* MotionTransition+UINavigationControllerDelegate.swift */,
+				98F03B9EC2B86174D15319587FDEA10C /* MotionTransition+UITabBarControllerDelegate.swift */,
+				B85E0FB7BC518156949B023E4A0A98B8 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */,
+				BDB91546189BD7B9664E4946529C1634 /* MotionTransitionObserver.swift */,
+				8580D510F24FA69838E8BC48CBEE81E2 /* MotionViewOrderStrategy.swift */,
+				01FB541CC2CA413C3C9EB763A72DFCEA /* MotionViewPropertyViewContext.swift */,
+				D125FEE5BC16B061A39EED084BC1FF58 /* SourcePreprocessor.swift */,
+				C15E7CE08051E216F9D56FD33ACA2C97 /* TransitionPreprocessor.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		4884885BB18BD11A29D2E20459E19F4C /* Pods-testW */ = {
@@ -144,32 +418,44 @@
 			path = "Target Support Files/Pods-testW";
 			sourceTree = "<group>";
 		};
-		62663FC5F0A0567F462E126D662E2A63 /* ARCL */ = {
+		6370EBD340D311435AB3FB59C0B79BD5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC212B78843EEBD6D63DD3DDE3F21084 /* CGPoint+Extensions.swift */,
-				C063DAC7C005C0381A8C577421C54DDC /* CLLocation+Extensions.swift */,
-				EFFF1A3D37A6FD5258249556E0FF0BC1 /* FloatingPoint+Radians.swift */,
-				4C6CC60DA912CE644923E1C3BCB03C4D /* LocationManager.swift */,
-				C42F06BA29771A5087B5C4820838B577 /* LocationNode.swift */,
-				3AD29AE7A20DEBBFD88C251EDB5FA3C6 /* SceneLocationEstimate.swift */,
-				E40FC41FF33A2B3254F531E3DF7670EA /* SceneLocationEstimate+Extensions.swift */,
-				52919027ADA5736D4DB8CCC3CCF19B23 /* SceneLocationView.swift */,
-				F3BF025826521CE10E3049403483FBAA /* SCNNode+Extensions.swift */,
-				E051C79F9C77861AC9E27A4A2646EA48 /* SCNVector3+Extensions.swift */,
-				2309B6DF47F0C7298DA6B5219A2B7033 /* Support Files */,
+				D0E74BBBCC4343097DCFD2CF166A2E63 /* Info.plist */,
+				0564D8899EB7116F246CC0BC7DCF5C9C /* SwipeNavigationController.modulemap */,
+				F65D83DB91877CAE0A16DF965F3FFA68 /* SwipeNavigationController.xcconfig */,
+				A6F44F4F1353B5E922BB487508F54DD6 /* SwipeNavigationController-dummy.m */,
+				C6991C85C21B382995618D64DDB3E138 /* SwipeNavigationController-prefix.pch */,
+				D17B39D7D68AEE348CE918A2689420D3 /* SwipeNavigationController-umbrella.h */,
 			);
-			name = ARCL;
-			path = ARCL;
+			name = "Support Files";
+			path = "../Target Support Files/SwipeNavigationController";
 			sourceTree = "<group>";
 		};
-		6DB22B7D318DFB9AC0C56E5C2009FAA6 /* Products */ = {
+		65A41DE44030A916DE494ACFF93CBEB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43A5375FA63457AA6072C82C3DD2CEFB /* ARCL.framework */,
-				F94754F83B417F34A0ABE4E8873D7BDF /* Pods_testW.framework */,
+				D0A2302C51EFC8427685478C34BB0D5B /* ARCL.framework */,
+				EFD1A98FFCB96C5CDCAE27BCAF63FB29 /* Motion.framework */,
+				534D769408675036B5F8523377261D22 /* Pods_testW.framework */,
+				633DBE807F34D1C1B39D70E6D13273E8 /* SwipeCellKit.framework */,
+				13D8C1EB0ED67509A9199D7C0F03D824 /* SwipeNavigationController.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7490C58D8735CF439AF31819CC4A8CC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B0B68891CEE624218614A1CB319C80D /* Info.plist */,
+				83AC2943F406D3A3AAC0256B0ACF58DD /* SwipeCellKit.modulemap */,
+				019A54C4E9EC62B9F58626806E289576 /* SwipeCellKit.xcconfig */,
+				2A863443A4C0A15DA67C20ECDCDF6F98 /* SwipeCellKit-dummy.m */,
+				9838DDC08559CC1C4822140D58C993A5 /* SwipeCellKit-prefix.pch */,
+				06153E1FB1CCF1941EEA86104612B965 /* SwipeCellKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeCellKit";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -177,10 +463,19 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
-				AF09225CB8FCCA510EA623AC16ED1554 /* Pods */,
-				6DB22B7D318DFB9AC0C56E5C2009FAA6 /* Products */,
+				BB764B516CE227AE685C09B733BFC270 /* Pods */,
+				65A41DE44030A916DE494ACFF93CBEB9 /* Products */,
 				87040BE39647B257CF395DF23792A5F9 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7E9CEC30A5935B7ED55E8A37A610D778 /* Mapbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				8BB68F40171690FDF27B4EFF0EB55B81 /* Frameworks */,
+			);
+			name = "Mapbox-iOS-SDK";
+			path = "Mapbox-iOS-SDK";
 			sourceTree = "<group>";
 		};
 		87040BE39647B257CF395DF23792A5F9 /* Targets Support Files */ = {
@@ -191,30 +486,81 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		933950A0322DE4DFF1887B5F636BDB3A /* Frameworks */ = {
+		8BB68F40171690FDF27B4EFF0EB55B81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CAAA5E504429FC290B8A81B7ECE1B6AD /* Mapbox.framework */,
+				5074CC76A69628548ADACEB7B4E76983 /* Mapbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AF09225CB8FCCA510EA623AC16ED1554 /* Pods */ = {
+		97612D01438D7C83629EA05F2047C87B /* ARCL */ = {
 			isa = PBXGroup;
 			children = (
-				62663FC5F0A0567F462E126D662E2A63 /* ARCL */,
-				C298687E416ECCE3EC4926986A0A95F9 /* Mapbox-iOS-SDK */,
+				6D7E732DA24FD48D11AB2D95D4825217 /* CGPoint+Extensions.swift */,
+				D523FC11E77D47215D8AB82BA7DC238A /* CLLocation+Extensions.swift */,
+				5E403DB73E4662314D120C84B1E520EC /* FloatingPoint+Radians.swift */,
+				B80682B7EAFA9177D0DE5A2109FE7577 /* LocationManager.swift */,
+				6E9EC6F83A1685F73C73DCA983649390 /* LocationNode.swift */,
+				5A3B34CF1EA1508D9F8889EBD9665945 /* SceneLocationEstimate.swift */,
+				57A28607C0956FE9779D227C08246D16 /* SceneLocationEstimate+Extensions.swift */,
+				69995785C57E950AB73BE015D8270E68 /* SceneLocationView.swift */,
+				154E0AAC4BA28032C094719B5F0218EC /* SCNNode+Extensions.swift */,
+				B4476EA945488F4240ECC1DF698F2BE5 /* SCNVector3+Extensions.swift */,
+				E6CC31F277BE448100677906E1C8ADB7 /* Support Files */,
+			);
+			name = ARCL;
+			path = ARCL;
+			sourceTree = "<group>";
+		};
+		AECD960383BAF8E42C6AFBFC499030FF /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				396390DDE05C2D2FD90C7A93D839628B /* Core */,
+				B5B138A7C811824B02EBA5399D055795 /* Support Files */,
+			);
+			name = Motion;
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		B5B138A7C811824B02EBA5399D055795 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7958BAD575E9533428566F6D3F36F651 /* Info.plist */,
+				E8AC2D7410F0F0487BF10CF9FAF7E0E7 /* Motion.modulemap */,
+				96A3035498F64FF4E7B41006A4B3B496 /* Motion.xcconfig */,
+				9EC5DF8AB72C3067EC6B65A5DBF339D4 /* Motion-dummy.m */,
+				46373215363C57BDC1236DCAE5459B8A /* Motion-prefix.pch */,
+				E8608627CC5C550D66FF4F3DF8A9BFF0 /* Motion-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Motion";
+			sourceTree = "<group>";
+		};
+		BB764B516CE227AE685C09B733BFC270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97612D01438D7C83629EA05F2047C87B /* ARCL */,
+				7E9CEC30A5935B7ED55E8A37A610D778 /* Mapbox-iOS-SDK */,
+				AECD960383BAF8E42C6AFBFC499030FF /* Motion */,
+				2164A0789BC4A153873AD93808AA03F4 /* SwipeCellKit */,
+				19A37992D03BA63F7DA5607AC8FCAEC5 /* SwipeNavigationController */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C298687E416ECCE3EC4926986A0A95F9 /* Mapbox-iOS-SDK */ = {
+		E6CC31F277BE448100677906E1C8ADB7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				933950A0322DE4DFF1887B5F636BDB3A /* Frameworks */,
+				B257947EBCCBA0390173AE89A8AE6FE8 /* ARCL.modulemap */,
+				82CFF3D2D43968D081A51C387ABCBA78 /* ARCL.xcconfig */,
+				A16E63B8B49DFD5C108E5F1561757405 /* ARCL-dummy.m */,
+				C68D58F159663E5956B6E8FBA1444396 /* ARCL-prefix.pch */,
+				29AF7D7431FA25558A8311E5CEF0EB5B /* ARCL-umbrella.h */,
+				0EFA412EA44ACA30F5979F41E595E272 /* Info.plist */,
 			);
-			name = "Mapbox-iOS-SDK";
-			path = "Mapbox-iOS-SDK";
+			name = "Support Files";
+			path = "../Target Support Files/ARCL";
 			sourceTree = "<group>";
 		};
 		FDA5C35F353171FA0BCB3D2466E21678 /* iOS */ = {
@@ -233,11 +579,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		367AC2F3FEE1DD5C1C12326C280209A2 /* Headers */ = {
+		28CECA9F25C4D4B211B433B5DF63F9E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDFE9FF365253A3FEEB2571359FE40DB /* Pods-testW-umbrella.h in Headers */,
+				7ADF23C79078E9C158F5DA7A9CE75B9A /* SwipeCellKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1BF029D9655E4776911122232C428C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130FBD27671345F4D9C95977A5BD6591 /* Motion-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E11348AABEB0B2F23D574091F83656 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7F88BE92968ADA5D4A7CA8EF692F43 /* SwipeNavigationController-umbrella.h in Headers */,
+				74DC93D7914E28BF217D8E96F2A8A58D /* SwipeNavigationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,25 +612,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		992F1321E2233DA8B94E048153808C7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C3F30592C1D9D346A913CD17CDF6B8 /* Pods-testW-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0FDEE7C28BA7F6BD49410895728E8055 /* Pods-testW */ = {
+		42B07A53208A11D884BB4E07E9131315 /* Motion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 813B8BC95DE926DE09BC1F7DB991F35A /* Build configuration list for PBXNativeTarget "Pods-testW" */;
+			buildConfigurationList = A831181570303E77902750FD9F89F7E3 /* Build configuration list for PBXNativeTarget "Motion" */;
 			buildPhases = (
-				F4AC99AF18390D64DC6198A14F6A0168 /* Sources */,
-				50CD02D06D249F41360425F0D5314735 /* Frameworks */,
-				367AC2F3FEE1DD5C1C12326C280209A2 /* Headers */,
+				066C564B9B97EA108FB11585B9517A33 /* Sources */,
+				69A1F093A857908D9C07FD38472248D0 /* Frameworks */,
+				2F1BF029D9655E4776911122232C428C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16B746D9100043C6E7EC80439AB21AF9 /* PBXTargetDependency */,
 			);
-			name = "Pods-testW";
-			productName = "Pods-testW";
-			productReference = F94754F83B417F34A0ABE4E8873D7BDF /* Pods_testW.framework */;
+			name = Motion;
+			productName = Motion;
+			productReference = EFD1A98FFCB96C5CDCAE27BCAF63FB29 /* Motion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B133D227D6D9EE0B27F9FFB10E1EAEA3 /* SwipeNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D78EB46939D7B962A76921B8876D40F9 /* Build configuration list for PBXNativeTarget "SwipeNavigationController" */;
+			buildPhases = (
+				75B93F2242E7395C766169B41F24D077 /* Sources */,
+				0E794956B845D4B4D00FA60EBF679547 /* Frameworks */,
+				53E11348AABEB0B2F23D574091F83656 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeNavigationController;
+			productName = SwipeNavigationController;
+			productReference = 13D8C1EB0ED67509A9199D7C0F03D824 /* SwipeNavigationController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B3FCF2DF4512CA0461222403526A28A8 /* ARCL */ = {
@@ -284,7 +671,45 @@
 			);
 			name = ARCL;
 			productName = ARCL;
-			productReference = 43A5375FA63457AA6072C82C3DD2CEFB /* ARCL.framework */;
+			productReference = D0A2302C51EFC8427685478C34BB0D5B /* ARCL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C210E3BD8950523DF3201C79F43F9417 /* Pods-testW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E5CEC05D508AA1AF36EED9F055FD66 /* Build configuration list for PBXNativeTarget "Pods-testW" */;
+			buildPhases = (
+				B673B7D81F7FAF4D25FBA51B248AA53B /* Sources */,
+				7F22B294BDBF08D98915C1305DDFA05D /* Frameworks */,
+				992F1321E2233DA8B94E048153808C7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B930D1541B65A243F5834D469340E8A /* PBXTargetDependency */,
+				A5C9894E5EA4F720A63838C85371246E /* PBXTargetDependency */,
+				9FE5E134E4DB8A08F226068C39D9B702 /* PBXTargetDependency */,
+				66F3B1337549F1808D34FF7DEC6DDD93 /* PBXTargetDependency */,
+			);
+			name = "Pods-testW";
+			productName = "Pods-testW";
+			productReference = 534D769408675036B5F8523377261D22 /* Pods_testW.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1A4D6576F1F49B3C1AC57827D2EC446 /* SwipeCellKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15417DA67D30CEFABD04EE1C2D49170 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
+			buildPhases = (
+				C97166486A31B6031073396C65695CE7 /* Sources */,
+				71F9AE31FDCC03372670B9FF08910209 /* Frameworks */,
+				28CECA9F25C4D4B211B433B5DF63F9E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeCellKit;
+			productName = SwipeCellKit;
+			productReference = 633DBE807F34D1C1B39D70E6D13273E8 /* SwipeCellKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -304,17 +729,71 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6DB22B7D318DFB9AC0C56E5C2009FAA6 /* Products */;
+			productRefGroup = 65A41DE44030A916DE494ACFF93CBEB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B3FCF2DF4512CA0461222403526A28A8 /* ARCL */,
-				0FDEE7C28BA7F6BD49410895728E8055 /* Pods-testW */,
+				42B07A53208A11D884BB4E07E9131315 /* Motion */,
+				C210E3BD8950523DF3201C79F43F9417 /* Pods-testW */,
+				F1A4D6576F1F49B3C1AC57827D2EC446 /* SwipeCellKit */,
+				B133D227D6D9EE0B27F9FFB10E1EAEA3 /* SwipeNavigationController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		066C564B9B97EA108FB11585B9517A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD23C113AA5C4954A0308974368BC732 /* CascadePreprocessor.swift in Sources */,
+				19EB09FB3705FE202A5AA2948FF09077 /* ConditionalPreprocessor.swift in Sources */,
+				F0F7A6D766E84E63D6319799A8AC8333 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				78BA88010D26C3CDA154220FB0E0575A /* MatchPreprocessor.swift in Sources */,
+				D701825DD7022994EA59570DB71BA08A /* Motion+Array.swift in Sources */,
+				673B1D0F251447CAA189E1D4E6994D63 /* Motion+CALayer.swift in Sources */,
+				5D3E2A13C1EE45B974BFD8BB4D246424 /* Motion+CAMediaTimingFunction.swift in Sources */,
+				F4A5B321CBA545927FCD723BD26283A0 /* Motion+CG.swift in Sources */,
+				B8ECF1EFCE45B762869F63C4F769C5FD /* Motion+Obj-C.swift in Sources */,
+				8307569F8E18DD362E57E91B17FB2430 /* Motion+UIKit.swift in Sources */,
+				93385FD68C9F11DBB0DA37BF8A22744F /* Motion+UIView.swift in Sources */,
+				AAB4E5FA92F959610CDC02E80F0A7944 /* Motion+UIViewController.swift in Sources */,
+				35BCE26F0A85C132E9A10BB35C66BC75 /* Motion-dummy.m in Sources */,
+				8876E6484A020EF7F45780DDCE03ACCC /* MotionAnimation.swift in Sources */,
+				972850E6A8615AA45F875CAD0B40C6E2 /* MotionAnimationFillMode.swift in Sources */,
+				ED442B94A4E7304C095D7BC01C8D8C82 /* MotionAnimationState.swift in Sources */,
+				E1696EA63B478B8E21F2D26C8C517304 /* MotionAnimator.swift in Sources */,
+				2D607119C090AD2F3DFD83C305AA814B /* MotionAnimatorViewContext.swift in Sources */,
+				D4143D2368BF7DB18BBB405823BFFC0E /* MotionCAAnimation.swift in Sources */,
+				D72F71A1219EA6F8F052739048EE6A1E /* MotionContext.swift in Sources */,
+				2B85D90ADE27AAB0CCBB9392C4485D40 /* MotionCoordinateSpace.swift in Sources */,
+				FE10215480870C4B7036C6EE99C4D6CC /* MotionCoreAnimationViewContext.swift in Sources */,
+				F8A6E563E292400235DCA5F896513281 /* MotionCoreAnimator.swift in Sources */,
+				AD6C491B7AE200B411EE71929B3CAC57 /* MotionCorePreprocessor.swift in Sources */,
+				20DF2904916DFF0E7075254E51CBCCB7 /* MotionModifier.swift in Sources */,
+				F38AF5F6EDC1CD8144DF3704A56FD224 /* MotionPlugin.swift in Sources */,
+				B6DE2117241B8BF659E030B6722E0396 /* MotionPreprocessor.swift in Sources */,
+				D8EF3CA464EA12B25FE569D3DED73693 /* MotionProgressRunner.swift in Sources */,
+				1377DE721BE8CF26719AFCE3135D8444 /* MotionSnapshotType.swift in Sources */,
+				B12B2EED885CAD4715787BA38011CC91 /* MotionTargetState.swift in Sources */,
+				B7281B808148119A8116A4C418200228 /* MotionTransition+Animate.swift in Sources */,
+				A1E530F674859D59636C4928B45427D7 /* MotionTransition+Complete.swift in Sources */,
+				B6C73019900CD5047E56E241C1560E3E /* MotionTransition+CustomTransition.swift in Sources */,
+				44EE1E9C049BAD506ACE8D0035A99ABA /* MotionTransition+Interactive.swift in Sources */,
+				7E0217F9763FE5CEB718528A20B275F7 /* MotionTransition+Start.swift in Sources */,
+				E4CB8785D7C61CAC5ED76DAC7148AEC9 /* MotionTransition+UINavigationControllerDelegate.swift in Sources */,
+				34579300D920AF5824BA0FAE7DFE808F /* MotionTransition+UITabBarControllerDelegate.swift in Sources */,
+				4F2C9A5584BCD338A20EDD1A45BB8855 /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				AAAF34FB8B2A57D4F3C4048CA3188E0D /* MotionTransition.swift in Sources */,
+				2E837A2E45946B456401B127C5975584 /* MotionTransitionObserver.swift in Sources */,
+				3C9EAA97A3A914194E946AE8CDFDF39A /* MotionViewOrderStrategy.swift in Sources */,
+				51CA63DEB66941DC37C06245EB58A8C7 /* MotionViewPropertyViewContext.swift in Sources */,
+				DE43CCBF72EBCD77D60731989FE83563 /* SourcePreprocessor.swift in Sources */,
+				BF6645DFBC0777DEC64B824DA6BEBE3B /* TransitionPreprocessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B281236CDEC849A4D1DA3699FFD7DB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,29 +812,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AC99AF18390D64DC6198A14F6A0168 /* Sources */ = {
+		75B93F2242E7395C766169B41F24D077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8ACC34953DA822CFBD1999F1604C5B0 /* Pods-testW-dummy.m in Sources */,
+				C3C308B64A62B37D39039BB1B610E474 /* SwipeNavigationController-dummy.m in Sources */,
+				E98FD4930E9DFD996E3F6B13167D6E65 /* SwipeNavigationController.swift in Sources */,
+				AC21ABB253F77F6F9BDDFE81063F4F1B /* UIViewController+SwipeNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B673B7D81F7FAF4D25FBA51B248AA53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F235DD0CABB832F4F2B9AB1450DC48 /* Pods-testW-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97166486A31B6031073396C65695CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23B02909BD7ECED901411A2A9891D4 /* Extensions.swift in Sources */,
+				935349AD0CAFE416F894CA049FAF5E9D /* Swipeable.swift in Sources */,
+				D42E8293678FBF20C9225CF02DC0B153 /* SwipeAction.swift in Sources */,
+				6E49A7B5E6FA42A6BC6BEE8957DF8A36 /* SwipeActionButton.swift in Sources */,
+				E021A9B92559D8C099B679D926A6CB3A /* SwipeActionsView.swift in Sources */,
+				437F43CB8950000F5B53CA4FE224F5E3 /* SwipeActionTransitioning.swift in Sources */,
+				6B221415EA08D77BACEAAD7B435914F5 /* SwipeAnimator.swift in Sources */,
+				78F781B12DD2C935B4BF374BE0CEAEF8 /* SwipeCellKit-dummy.m in Sources */,
+				442352E5E9BF0F764659FAD5182FC13D /* SwipeExpanding.swift in Sources */,
+				53841965FE2A88ACF37AD300FFFDCC87 /* SwipeExpansionStyle.swift in Sources */,
+				E150C9F06F2B57BE3B37422027DF0B27 /* SwipeFeedback.swift in Sources */,
+				59F60805035075A42124FC2DCFCCABE6 /* SwipeTableOptions.swift in Sources */,
+				B526CE1F77B557EAAEFCE6D2B2CF3CE8 /* SwipeTableViewCell+Accessibility.swift in Sources */,
+				8CBCFCA4D62E5C2F3E660CB2F3436BBC /* SwipeTableViewCell+Display.swift in Sources */,
+				5F9E5C86F4AE1F7B4DFE7B8F98E201AB /* SwipeTableViewCell.swift in Sources */,
+				204B51B6FBCF5566E0DFE7357CF90EDC /* SwipeTableViewCellDelegate.swift in Sources */,
+				FD1E0F81CCC70AEC9EF5986AF2AFD71C /* SwipeTransitionLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16B746D9100043C6E7EC80439AB21AF9 /* PBXTargetDependency */ = {
+		66F3B1337549F1808D34FF7DEC6DDD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeNavigationController;
+			target = B133D227D6D9EE0B27F9FFB10E1EAEA3 /* SwipeNavigationController */;
+			targetProxy = D8CBFDA993B8B231B2985F43C16CF665 /* PBXContainerItemProxy */;
+		};
+		6B930D1541B65A243F5834D469340E8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ARCL;
 			target = B3FCF2DF4512CA0461222403526A28A8 /* ARCL */;
-			targetProxy = C3C04ACCBA1548BB54A4FDECEE9CCBE1 /* PBXContainerItemProxy */;
+			targetProxy = 7BBD41CDB5336C1921DD62A334959C59 /* PBXContainerItemProxy */;
+		};
+		9FE5E134E4DB8A08F226068C39D9B702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = F1A4D6576F1F49B3C1AC57827D2EC446 /* SwipeCellKit */;
+			targetProxy = FD2FC11F0AD206DE8FB7454936A824FF /* PBXContainerItemProxy */;
+		};
+		A5C9894E5EA4F720A63838C85371246E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Motion;
+			target = 42B07A53208A11D884BB4E07E9131315 /* Motion */;
+			targetProxy = B389870193F25C5BD38E63A17883D0D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AA4AC4F368D54E59D5EBE74D1C32576 /* Debug */ = {
+		086F9940807CB20B8660EB04CD9D06E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DABAAB44D6EAAA7939AD984E8590001A /* Pods-testW.debug.xcconfig */;
+			baseConfigurationReference = F65D83DB91877CAE0A16DF965F3FFA68 /* SwipeNavigationController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -366,26 +897,55 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-testW/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeNavigationController/SwipeNavigationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeNavigationController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-testW/Pods-testW.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_testW;
+				MODULEMAP_FILE = "Target Support Files/SwipeNavigationController/SwipeNavigationController.modulemap";
+				PRODUCT_NAME = SwipeNavigationController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		0C3F208980831D6C18D7A63989316FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019A54C4E9EC62B9F58626806E289576 /* SwipeCellKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -447,7 +1007,7 @@
 		};
 		3F9E0196DE1758F649C1CA5673D7324F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DBFE5625235E5342E5029A43A242859 /* ARCL.xcconfig */;
+			baseConfigurationReference = 82CFF3D2D43968D081A51C387ABCBA78 /* ARCL.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -477,7 +1037,101 @@
 			};
 			name = Release;
 		};
-		657CFCC4BFC1FD688509538166D21462 /* Release */ = {
+		4E4D51905591DE4A0250690317CFE1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A3035498F64FF4E7B41006A4B3B496 /* Motion.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Motion/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Motion/Motion.modulemap";
+				PRODUCT_NAME = Motion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		670ACAABA9C97C0D0B11291901C53EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CFF3D2D43968D081A51C387ABCBA78 /* ARCL.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCL/ARCL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARCL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ARCL/ARCL.modulemap";
+				PRODUCT_NAME = ARCL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7665322235A6600094E433CE89D7E5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65D83DB91877CAE0A16DF965F3FFA68 /* SwipeNavigationController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeNavigationController/SwipeNavigationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeNavigationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeNavigationController/SwipeNavigationController.modulemap";
+				PRODUCT_NAME = SwipeNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC65BF6E310CC289A3801A8DABC5E73D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8F38985F857F4AC50C38ACA1E796EDE /* Pods-testW.release.xcconfig */;
 			buildSettings = {
@@ -511,9 +1165,9 @@
 			};
 			name = Release;
 		};
-		670ACAABA9C97C0D0B11291901C53EDF /* Debug */ = {
+		BB7F5626ADA4F7D812FAD7360BC907BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DBFE5625235E5342E5029A43A242859 /* ARCL.xcconfig */;
+			baseConfigurationReference = 96A3035498F64FF4E7B41006A4B3B496 /* Motion.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -524,23 +1178,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ARCL/ARCL-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ARCL/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Motion/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ARCL/ARCL.modulemap";
-				PRODUCT_NAME = ARCL;
+				MODULEMAP_FILE = "Target Support Files/Motion/Motion.modulemap";
+				PRODUCT_NAME = Motion;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -605,6 +1260,71 @@
 			};
 			name = Debug;
 		};
+		E7D047765048DA3514CE4FBE5A0460AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DABAAB44D6EAAA7939AD984E8590001A /* Pods-testW.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-testW/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testW/Pods-testW.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_testW;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F994E5B036167297796C11DE48CBEB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019A54C4E9EC62B9F58626806E289576 /* SwipeCellKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -626,11 +1346,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		813B8BC95DE926DE09BC1F7DB991F35A /* Build configuration list for PBXNativeTarget "Pods-testW" */ = {
+		A831181570303E77902750FD9F89F7E3 /* Build configuration list for PBXNativeTarget "Motion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AA4AC4F368D54E59D5EBE74D1C32576 /* Debug */,
-				657CFCC4BFC1FD688509538166D21462 /* Release */,
+				4E4D51905591DE4A0250690317CFE1C8 /* Debug */,
+				BB7F5626ADA4F7D812FAD7360BC907BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E5CEC05D508AA1AF36EED9F055FD66 /* Build configuration list for PBXNativeTarget "Pods-testW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D047765048DA3514CE4FBE5A0460AC /* Debug */,
+				AC65BF6E310CC289A3801A8DABC5E73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D78EB46939D7B962A76921B8876D40F9 /* Build configuration list for PBXNativeTarget "SwipeNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086F9940807CB20B8660EB04CD9D06E9 /* Debug */,
+				7665322235A6600094E433CE89D7E5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15417DA67D30CEFABD04EE1C2D49170 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F994E5B036167297796C11DE48CBEB29 /* Debug */,
+				0C3F208980831D6C18D7A63989316FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

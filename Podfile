@@ -7,6 +7,10 @@ target 'testW' do
   # Pods for testW
     pod 'Mapbox-iOS-SDK'
     pod 'ARCL'
+    pod 'Motion'
+    pod 'SwipeCellKit'
+    pod 'SwipeNavigationController'
+    
     
 
 end

@@ -13,6 +13,8 @@
 		B4584C8F202A3C0E00A78B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4584C8D202A3C0E00A78B26 /* Main.storyboard */; };
 		B4584C91202A3C0E00A78B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4584C90202A3C0E00A78B26 /* Assets.xcassets */; };
 		B4584C94202A3C0E00A78B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4584C92202A3C0E00A78B26 /* LaunchScreen.storyboard */; };
+		B46F3057203715BC0010D669 /* FrinedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F3056203715BC0010D669 /* FrinedsViewController.swift */; };
+		B46F305920386D140010D669 /* FrinedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46F305820386D140010D669 /* FrinedTableViewCell.swift */; };
 		B4E7F30D202A4433003E0F8D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E7F30C202A4433003E0F8D /* UserData.swift */; };
 		CEEAE4F83CCA512B2E91BAE4 /* Pods_testW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52C8D440C713A0F4AC2B937 /* Pods_testW.framework */; };
 /* End PBXBuildFile section */
@@ -27,6 +29,8 @@
 		B4584C90202A3C0E00A78B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4584C93202A3C0E00A78B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4584C95202A3C0E00A78B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46F3056203715BC0010D669 /* FrinedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrinedsViewController.swift; sourceTree = "<group>"; };
+		B46F305820386D140010D669 /* FrinedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrinedTableViewCell.swift; sourceTree = "<group>"; };
 		B4E7F30C202A4433003E0F8D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		B52C8D440C713A0F4AC2B937 /* Pods_testW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6740A83327849CD93088A86 /* Pods-testW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testW.release.xcconfig"; path = "Pods/Target Support Files/Pods-testW/Pods-testW.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				B4584C89202A3C0E00A78B26 /* AppDelegate.swift */,
 				B43B55532032016B00C16612 /* ARViewController.swift */,
 				B4584C8B202A3C0E00A78B26 /* ViewController.swift */,
+				B46F3056203715BC0010D669 /* FrinedsViewController.swift */,
+				B46F305820386D140010D669 /* FrinedTableViewCell.swift */,
 				B4584C8D202A3C0E00A78B26 /* Main.storyboard */,
 				B4584C90202A3C0E00A78B26 /* Assets.xcassets */,
 				B4584C92202A3C0E00A78B26 /* LaunchScreen.storyboard */,
@@ -183,12 +189,18 @@
 				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeNavigationController/SwipeNavigationController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeNavigationController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -235,8 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46F3057203715BC0010D669 /* FrinedsViewController.swift in Sources */,
 				B4E7F30D202A4433003E0F8D /* UserData.swift in Sources */,
 				B4584C8C202A3C0E00A78B26 /* ViewController.swift in Sources */,
+				B46F305920386D140010D669 /* FrinedTableViewCell.swift in Sources */,
 				B4584C8A202A3C0E00A78B26 /* AppDelegate.swift in Sources */,
 				B43B55542032016B00C16612 /* ARViewController.swift in Sources */,
 			);

@@ -1,15 +1,26 @@
 PODS:
   - ARCL (1.0.2)
-  - Mapbox-iOS-SDK (3.7.3)
+  - Mapbox-iOS-SDK (3.7.4)
+  - Motion (1.3.5):
+    - Motion/Core (= 1.3.5)
+  - Motion/Core (1.3.5)
+  - SwipeCellKit (2.0.1)
+  - SwipeNavigationController (2.0.2)
 
 DEPENDENCIES:
   - ARCL
   - Mapbox-iOS-SDK
+  - Motion
+  - SwipeCellKit
+  - SwipeNavigationController
 
 SPEC CHECKSUMS:
   ARCL: 88300cadfbdd6a9288ca17ad18d3ac972d6cb1e6
-  Mapbox-iOS-SDK: 5304bd9605babe6da9050ea4cb23c1671420b737
+  Mapbox-iOS-SDK: fb994b9e46df7b909f58dd0c5df5a44f58cdab04
+  Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
+  SwipeCellKit: 76888d93d1843dc568fdf38fff21b15dbbcf6b28
+  SwipeNavigationController: 592681599a3105a44484e5b7af9055cee7a0d7b9
 
-PODFILE CHECKSUM: fe888a4376b34727666dd9f95a0c8ab2ee386c66
+PODFILE CHECKSUM: 310cf8108453879e546c431d172903f5d45e5532
 
 COCOAPODS: 1.4.0

@@ -10,6 +10,8 @@ import UIKit
 import Mapbox
 import ARCL
 import ARKit
+import Motion
+import SwipeNavigationController
 import CoreLocation
 
 class ViewController: UIViewController , CLLocationManagerDelegate {
@@ -17,26 +19,25 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
     let data = UserData()
     let locationManager = CLLocationManager()
     
+    
     @IBOutlet var ARview: SceneLocationView! = SceneLocationView()
     
     
     @IBOutlet weak var MyMap: MGLMapView!
     
+    
     @IBAction func toAR(_ sender: UISwitch) {
         
-        ARview.run()
-        
-        UIView.animate(withDuration: 0.3, animations: {
+        if sender.isOn {
+            ARview.run()
             
-            
-            self.MyMap.frame = CGRect(x: self.ARview.frame.width-110,
-                                           y:  self.ARview.frame.height-160,
-                                           width: 100,
-                                           height: 100)
-            
-            self.MyMap.layer.cornerRadius = self.MyMap.frame.width / 2
-            
-        })
+            MyMap.zoomLevel = 18
+            MyMap.animate(.translate(x: 120, y: 180, z: 1), .scale(x:0.2668,y:0.15,z:1), .corner(radius:(187.5  * 1.4)))
+        }else{
+            ARview.pause()
+            MyMap.animate(.translate(x:0, y: 0, z: 1), .scale(x:1,y:1,z:1), .corner(radius:(0)))
+        }
+       
         
     }
     
@@ -50,6 +51,8 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
         
+        MyMap.logoView.isHidden = true
+        MyMap.attributionButton.isHidden = true
        
         
     }
